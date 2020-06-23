@@ -1951,7 +1951,7 @@ body {
 .cid-qyY8keMIH0 .footer-lower hr {
   margin: 1rem 0;
   border-color: #fff;
-  opacity: .05;
+  opacity: .4;
 }
 .cid-qyY8keMIH0 .footer-lower .social-list {
   padding-left: 0;

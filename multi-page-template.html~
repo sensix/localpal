@@ -101,7 +101,7 @@
   <section class="articolo cid-qzajqq5WCZ" id="articolo">
     <div class="container">
       <div class="media-container-row">
-        <div class="media-content pl-3  pr-lg-5 align-self-start py-2">
+        <div class="media-content px-3 align-self-start py-2">
           <div class="mbr-text text-black display-7 pt-5">
             <p>Nam ac quam eu nibh varius consectetur. Maecenas ac massa ornare, semper eros vitae, aliquet mauris. Nunc leo ante, scelerisque eget dolor eget, accumsan dapibus erat. Mauris sollicitudin tellus ut elementum consequat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam molestie metus, non pretium tortor viverra ac. Sed sed quam eget purus faucibus consectetur quis sit amet justo. Etiam sed mi elementum, vulputate lacus vitae, malesuada mauris. Integer dignissim et massa in vestibulum. Cras at nisi sapien. Mauris at dolor sem. Ut commodo tempor lectus, sed tristique ex consectetur quis. Morbi blandit nisi quis egestas pretium. Sed luctus ante eu tellus dignissim scelerisque. Integer blandit, ante id luctus interdum, nulla mi faucibus erat, ac volutpat velit tortor eget lacus.</p>
@@ -115,7 +115,7 @@
              INTERFACE DESIGNER
           </p>
         </div>
-        <div class="mbr-figure align-self-stretch" style="width: 50%; background: #fff;">
+        <div class="mbr-figure align-self-stretch pl-lg-5" style="width: 50%; background: #fff;">
           <img src="assets/images/jonathan-velasquez-384018-1333x2000.jpg" alt="" title="" media-simple="true">
         </div>
       </div>
