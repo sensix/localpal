@@ -1,8 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
-
-
-
 
 
 body {
@@ -23,14 +19,16 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Domine', serif;
+  font-family: 'Lato', serif;
+  font-weight: 900;
   font-size: 4.2rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.72rem;
 }
 .display-2 {
-  font-family: 'Domine', serif;
+  font-family: 'lato', serif;
+  font-weight: 900;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -44,7 +42,7 @@ body {
   font-size: 1.92rem;
 }
 .display-5 {
-  font-family: 'Domine', serif;
+  font-family: 'Lato', serif;
   font-size: 1.4rem;
 }
 .display-5 > .mbr-iconfont {
@@ -1929,7 +1927,7 @@ body {
 .cid-qyY8keMIH0 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #014a6c;
+  background-color: #155979;
 }
 @media (max-width: 767px) {
   .cid-qyY8keMIH0 .content {
@@ -2012,7 +2010,7 @@ body {
 }
 .cid-qyY7WBynLk .navbar {
   padding: .5rem 0;
-  background: #014a6c;
+  background: #155979;
   transition: none;
   min-height: 77px;
 }
