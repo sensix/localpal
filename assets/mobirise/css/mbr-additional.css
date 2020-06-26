@@ -2058,6 +2058,8 @@ body {
   word-break: break-word;
   min-width: 7rem;
   margin: .3rem 0;
+  transform: scale(1.25,1.25);
+  transform-origin: 0 50%;
 }
 .cid-qyY7WBynLk .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;

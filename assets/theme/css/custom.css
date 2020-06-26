@@ -43,9 +43,28 @@
   padding-left: 2rem
 }
 
+.accordion .collapse-inner {
+  padding: 1rem;
+
+}
+
+
 .convenzioni .btn {
-  padding: 1px;
+  padding: 0.5em;
   margin: 0;
+}
+
+.convenzioni .btn.btn-black-outline, 
+.convenzioni .btn.btn-black-outline:active {
+  border-color: #ccc;
+}
+
+.convenzioni .btn-black-outline:hover, 
+.convenzioni .btn-black-outline:focus, 
+.convenzioni .btn-black-outline.focus, 
+.convenzioni .btn-black-outline.active {
+    background-color: #fff;
+    border-color: #155979;
 }
 
 .convenzioni .btn img {
@@ -53,7 +72,6 @@
 }
 
 .convenzioni .btn:hover img {
-  opacity: 0.9;
 }
 
 .convenzioni img.dettaglio {
@@ -107,8 +125,8 @@
 
 a.text-white:hover, 
 a.text-white:focus {
-    color: #f50057 !important;
-    text-shadow: 0px 0px 5px rgb(1,74,108);
+    color: #fff !important;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.7);
 }
 
 .btn-white-outline, 
@@ -117,15 +135,34 @@ a.text-white:focus {
   background-color: rgba(255,255,255,0.2);
 }
 
-/* varie*/
 
-.navbar.bg-color a.text-white:hover,
-.navbar.bg-color a.text-white:focus {
-  color: #1F4E70 !important;
+
+.btn-black-outline, 
+.btn-black-outline:active {
+    background: none;
+    border-color: #155979;
+    color: #155979;
 }
 
+.btn-black-outline:hover, 
+.btn-black-outline:focus, 
+.btn-black-outline.focus, 
+.btn-black-outline.active {
+    color: #ffffff;
+    background-color: #155979;
+    border-color: #155979;
+}
+/* varie*/
 
+.navbar .text-white {
+  color: #ddd !important;
+}
 
+.navbar a.text-white:hover,
+.navbar a.text-white:focus {
+  color: #fff !important;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
 
 .section-eventi .card-wrapper {
     padding-bottom: 2rem;
@@ -144,3 +181,16 @@ a.text-white:focus {
     padding: 2rem 2rem 0 2rem;
 }
 
+.section-formazione .card-box {
+  min-height: 16rem;
+}
+
+
+.social-list a {
+  color: #fff;
+}
+
+.social-list a:hover,
+.social-list a:focus {
+  opacity: 0.5;
+}
