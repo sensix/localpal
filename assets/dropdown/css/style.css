@@ -32,7 +32,9 @@
   .navbar-dropdown .navbar-brand span {
     vertical-align: -4px; }
   .navbar-dropdown.bg-color.transparent {
-    background: none; }
+    background: transparent; }
+  body.home .navbar-dropdown.bg-color.transparent {
+    background: rgba(21, 89, 121, 0.5); }
   .navbar-dropdown.navbar-short .navbar-brand {
     padding: 0.625rem 0; }
     .navbar-dropdown.navbar-short .navbar-brand span {

@@ -20,7 +20,6 @@
     padding: 3rem;
     color: #fff;
     text-align: center;
-/*    background-color: rgba(21,89,121,0.7);*/
     background-color: rgba(245, 0, 87, 0.8);
 }
 
@@ -58,7 +57,6 @@
 
 .accordion .collapse-inner {
   padding: 1rem;
-
 }
 
 @media (max-width: 767px) {
@@ -66,7 +64,6 @@
     font-size: 1rem !important;
   }
 }
-
 
 .convenzioni .btn {
   padding: 0.5em;
@@ -142,6 +139,24 @@
   } 
 }
 
+/* vari elementi grafici */
+
+@media (min-width: 768px) {
+  #sectionFormazione .card-box {
+    min-height: 16.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #sectionNews .card-box {
+    min-height: 9rem;
+  }
+}
+
+.modal-header h5 {
+  font-size: 200%;
+  margin-left: 15px;
+}
 
 /* mbr */
 
@@ -226,4 +241,35 @@ a.text-white:focus {
 .social-list a:hover,
 .social-list a:focus {
   opacity: 0.5;
+}
+
+/* menu footer */
+
+#sectionContatti .menu-privacy a:after {
+   content: "-";
+   padding-left: 0.25rem;
+}
+
+#sectionContatti .menu-privacy a:last-child:after {
+   content: "";
+}
+
+/* paginazione hugo */
+
+.post-navigation .older-posts {
+  display: inline-block; 
+  margin-left: 1rem;
+}
+
+.post-navigation a.older-posts {
+  color: #f50057;
+}
+
+
+/* allineamento checkbox */
+
+.modal-dialog .custom-checkbox input[type="checkbox"]{
+  position: relative;
+  left: -1.5rem;
+  top: 1.5rem;
 }
